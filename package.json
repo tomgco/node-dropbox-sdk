@@ -1,0 +1,20 @@
+{
+  "author": "Tom Gallacher <tomgallacher23@gmail.com> (tomg.co)",
+  "name": "dropbox-api",
+  "description": "An alternative and maintained dropbox api for nodejs",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomgallacher/node-dropbox-api.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "> 0.3"
+  },
+  "dependencies": {
+		"request": "2.9.3"
+	},
+  "devDependencies": {}
+}
