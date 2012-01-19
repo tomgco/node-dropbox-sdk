@@ -1,11 +1,11 @@
 {
   "author": "Tom Gallacher <tomgallacher23@gmail.com> (tomg.co)",
-  "name": "dropbox-api",
+  "name": "dropbox-sdk",
   "description": "An alternative and maintained dropbox api for nodejs",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tomgallacher/node-dropbox-api.git"
+    "url": "git://github.com/tomgallacher/node-dropbox-sdk.git"
   },
   "scripts": {
     "test": "mocha"
