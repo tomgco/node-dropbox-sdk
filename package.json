@@ -1,7 +1,8 @@
 {
   "author": "Tom Gallacher <tomgallacher23@gmail.com> (tomg.co)",
   "name": "dropbox-sdk",
-  "description": "An alternative and maintained dropbox api for nodejs",
+  "description": "An alternative Dropbox SDK for nodejs",
+  "keywords": ["dropbox", "sdk", "s3", "api", "dbox"],
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "devDependencies": {
     "mocha": "*",
     "should": "*"
-  }
+  },
+    "licenses" : [{ 
+      "type" : "MIT",
+      "url" : "https://github.com/tomgallacher/node-dropbox-sdk/blob/master/README.md"
+    }]
 }
