@@ -78,6 +78,7 @@ To create a dropbox session you need to pass in an object that contains `appKey`
 
 #### Get a request token
 Now we're all set to start authenticating. We'll start by using the session object to get a request token via the `getRequestToken` SDK method.
+	
 		session.getRequestToken(function(status, reply) {
 			// That's all there is to it. The SDK automatically attaches your new request token to your session object.
 		});
