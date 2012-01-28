@@ -3,6 +3,7 @@ public/css/*.css
 public/css/main/*.css
 public/css/admin/*.css
 /.monitor
+/.npm-debug.log
 
 # Eclipse
 /.project
