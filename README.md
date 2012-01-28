@@ -13,20 +13,35 @@ This is an alternative SDK for using the Dropbox API within node.js
 See (https://www.dropbox.com/developers/reference/api) for more
 
 `accountInfo(callback)`
+
 `getFile(fromPath, callback)`
+
 `putFile(toPath, file, callback)`
+
 `metadata(fromPath, callback)`
+
 `revisions(path, params, callback)`
+
 `restore(path, rev, params, callback)`
+
 `search(path, query, params, callback)`
+
 `shares(path, callback)`
+
 `media(path, callback)`
+
 `thumbnails(path, size, callback)`
 
+#### File Operations
+
 `copy(fromPath, toPath, callback)`
+
 `createFolder(path, callback)`
+
 `del(fromPath, callback)`
+
 `move(fromPath, toPath, callback)`
+
 
 ### Dropbox.session
 
