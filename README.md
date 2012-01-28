@@ -46,12 +46,14 @@ See (https://www.dropbox.com/developers/reference/api) for more
 ### Dropbox.session
 
 `getRequestToken(callback)`
+
 `getAuthorizeUrl(oauthCallback)`
+
 `getAccessToken(callback)`
 
 ### Usage
 
-The first thing you have to do is find your app key and secret pair. As described in the (https://www.dropbox.com/developers/start)[Getting Started] guide, the app key and secret are used to authenticate a Dropbox session and must be included with every API call. You can find these keys in the (https://www.dropbox.com/developers/start/setup)[Setup tutorial] or via the (https://www.dropbox.com/developers/apps)[My Apps] section of the Dropbox website. Once you have your keys, we'll use them to access your Dropbox account and the Dropbox API.
+The first thing you have to do is find your app key and secret pair. As described in the [Getting Started](https://www.dropbox.com/developers/start) guide, the app key and secret are used to authenticate a Dropbox session and must be included with every API call. You can find these keys in the [Setup tutorial](https://www.dropbox.com/developers/start/setup) or via the [My Apps](https://www.dropbox.com/developers/apps) section of the Dropbox website. Once you have your keys, we'll use them to access your Dropbox account and the Dropbox API.
 
 #### Creating a session object
 
@@ -80,7 +82,7 @@ Now we're all set to start authenticating. We'll start by using the session obje
 
 #### User authentication and authorization
 With a request token in hand, it's time for the user to authorize our app. To do this, we'll send the user to the Dropbox website to allow your app access to their Dropbox account. The request token is passed to `getAuthorizeUrl` to create a unique authorization URL to send the user to and, optionally, specify the website to return the user to after they finish granting access to your app.
-		
+
 		res.redirect(session.getAuthorizeUrl('http://' + req.headers.host + '/auth'));
 
 #### Get an access token
