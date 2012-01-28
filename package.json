@@ -3,7 +3,7 @@
   "name": "dropbox-sdk",
   "description": "An alternative Dropbox SDK for nodejs",
   "keywords": ["dropbox", "sdk", "s3", "api", "dbox"],
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/tomgallacher/node-dropbox-sdk.git"
