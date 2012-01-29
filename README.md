@@ -60,6 +60,7 @@ The first thing you have to do is find your app key and secret pair. As describe
 To create a dropbox session you need to pass in an object that contains `appKey` & `appSecret` it is best practise to place this object in a new module that you then require.
 
 `dropbox-config.js`
+
 		// Get your app key and secret from the Dropbox developer website
 		module.exports = {
 		  appKey: 'your-app-key',
@@ -67,6 +68,7 @@ To create a dropbox session you need to pass in an object that contains `appKey`
 		};
 
 `app.js`
+
 		// This includes the dropbox-sdk module
 		var dropboxSDK = require('dropbox-sdk'),
 			config = require('./dropbox-config');
@@ -76,6 +78,7 @@ To create a dropbox session you need to pass in an object that contains `appKey`
 
 #### Get a request token
 Now we're all set to start authenticating. We'll start by using the session object to get a request token via the `getRequestToken` SDK method.
+	
 		session.getRequestToken(function(status, reply) {
 			// That's all there is to it. The SDK automatically attaches your new request token to your session object.
 		});
